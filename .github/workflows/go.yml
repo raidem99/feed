@@ -27,6 +27,7 @@ jobs:
       uses: actions/setup-go@v5
       with:
         go-version-file: go.mod   # single source of truth for the Go version
+        cache: false              # no dependencies, so no go.sum to cache
 
     - name: Check formatting
       run: |
