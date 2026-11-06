@@ -1,5 +1,7 @@
 # podfetch
 
+[![Go](https://github.com/raidem99/feed/actions/workflows/go.yml/badge.svg)](https://github.com/raidem99/feed/actions/workflows/go.yml)
+
 A small Go CLI that downloads the newest episodes from podcast RSS feeds.
 
 ## Features
